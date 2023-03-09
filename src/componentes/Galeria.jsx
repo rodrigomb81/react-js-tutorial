@@ -1,7 +1,10 @@
+import remeSkater from '../assets/skater.jpg';
+import remeStranger from '../assets/strangerthings.jpeg';
+
 function Galeria() {
   return (
     <div>
-      <img/>
+      <img src={remeStranger} />
       <div>
         <img />
         <img />
