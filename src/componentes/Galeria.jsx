@@ -1,4 +1,5 @@
 import remeSkater from '../assets/skater.jpg';
+import remeHomero from '../assets/homero.jpg';
 import remeStranger from '../assets/strangerthings.jpeg';
 
 function Galeria() {
@@ -6,11 +7,11 @@ function Galeria() {
     <div>
       <img src={remeStranger} />
       <div>
-        <img />
-        <img />
-        <img />
-        <img />
-        <img />
+        <img src={remeSkater} />
+        <img src={remeHomero} />
+        <img src={remeSkater} />
+        <img src={remeHomero} />
+        <img src={remeSkater} />
       </div>
     </div>
   );
