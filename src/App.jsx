@@ -1,4 +1,5 @@
 import './App.css';
+import Galeria from './componentes/Galeria';
 import Saludo from './componentes/Saludo';
 import Switch from './componentes/Switch';
 
@@ -7,8 +8,7 @@ function App() {
 
   return (
     <div>
-      <Saludo nombreUsuario={nombre} />
-      <Switch />
+      <Galeria/>
     </div>
   );
 }
